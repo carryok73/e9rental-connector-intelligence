@@ -1,0 +1,69 @@
+# Local environment files. Keep the example template publishable.
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# OAuth clients, private keys, and tokens.
+credentials.json
+credentials*.json
+client_secret*.json
+*token*.json
+*token*.pickle
+*token*.pkl
+*token*.yaml
+*token*.yml
+*token*.txt
+*token*.dat
+*token*.bin
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases and SQLite sidecar/journal files.
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Imported business documents and generated exports contain source data.
+/data/
+/outputs/
+
+# Standalone imported/sample business documents kept at the project root.
+/document_001_rental_quotation.pdf
+/document_002_office_note.docx
+/document_003_marketing_budget.xlsx
+/document_004_verification_checklist.txt
+/document_005_accounts_invoice.csv
+
+# Python environments, bytecode, pytest caches, and temporary test artifacts.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-temp*/
+.test-tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Logs and common local IDE/OS files.
+*.log
+*-log.txt
+logs/
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
